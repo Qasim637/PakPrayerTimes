@@ -1,0 +1,61 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:linear-gradient(to bottom right,#19BD79,#F11010) 
+
+}
+
+.tab ul{
+	display: flex;
+
+}
+
+.tab ul li{
+
+	margin-left: 20px;
+	display: block;
+	font-size: 20px;
+	color: white;
+}
+.tab ul a{
+   text-decoration:none;
+   margin-right: 30px; 
+   margin-top: 6px;
+}
+
+
+
+.tab button{
+
+	margin-right: 20px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: none;
+}
+.logo h1{
+	color: white;
+	margin-left: 20px;
+
+}
+.bg{
+
+	background-image:url('bg3.jpg'); 
+	width: 100%;
+	height:600px;
+	margin:0px;
+	background-repeat: no-repeat;
+	background-size: cover;  
+	background-position: center;
+	color: white;
+    text-align:center;
+    padding: 0px;
+
+}
+
+

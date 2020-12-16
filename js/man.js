@@ -104,7 +104,7 @@ for(var i=0; i<actualdata.length;i++){
 
 	function api(d,m,y, city){
 		console.log(`first time what is date${d}`);
-	var api=`http://api.aladhan.com/v1/calendarByCity?city=${city}&country=Pakistan&method=1&month=${m}&year=${y}`;
+	var api=`https://api.aladhan.com/v1/calendarByCity?city=${city}&country=Pakistan&method=1&month=${m}&year=${y}`;
 	fetch(api).then((res)=>{
 	return res.json();
 	}).then((actual)=>{
